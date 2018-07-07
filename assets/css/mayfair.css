@@ -8,6 +8,7 @@ body {
  text-align: center;
  font-family: 'Open Sans', sans-serif;
  text-align: center;
+ max-width: 100vw;
 }
 
 a {
@@ -45,6 +46,8 @@ h5 {
 .user,
 .email,
 .footer_tiles,
+.buttons,
+.today_sale,
 #carti,
 #media_overlay,
 #nav,
@@ -59,8 +62,17 @@ h5 {
  min-height: 100vh;
  display: grid;
  grid-template-columns: 1fr;
- grid-template-rows: 1fr 4fr 8fr 3fr;
- grid-gap: 10px;
+ grid-template-rows: 1fr 2.9fr 8fr 3fr;
+}
+
+.intro,
+.content {
+ background: #FFEFBA;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* HEADER STYLES */
@@ -129,6 +141,86 @@ h5 {
 
 #yet {
  margin: 5px 5px;
+}
+
+/* INTRO STYLES */
+
+img {
+ width: 600px;
+ height: 400px;
+}
+
+.scrolling_wrapper {
+ overflow-x: scroll;
+ overflow-y: hidden;
+ white-space: nowrap;
+ max-width: 80vw;
+ height: 400px;
+ margin: 0 auto;
+}
+
+.card {
+ display: inline-block;
+ height: 100%;
+}
+
+.scrolling_wrapper::-webkit-scrollbar {
+ display: none;
+}
+
+/* CONTENT STYLES */
+
+.content,
+.inspirations,
+s {
+ display: grid;
+ grid-gap: 10px;
+}
+
+.inspiration_tile,
+.sale_tile,
+.last {
+ background-color: brown;
+}
+
+.content {
+ padding: 20px 0;
+ grid-template-columns: 1fr;
+ grid-template-rows: 6fr 1fr 3.5fr 5fr;
+}
+
+.inspirations {
+ grid-template-columns: 3fr 2fr;
+ grid-template-rows: 1fr 1fr;
+ margin: 0 auto;
+ width: 60%;
+}
+
+.living {
+ grid-row: 1/-1;
+}
+
+.buttons {
+ padding: 0 250px;
+ margin: 0 auto;
+ width: 60%;
+ justify-content: space-between;
+}
+
+.today_sale {
+ justify-content: space-between;
+ width: 70%;
+ margin: 0 auto;
+}
+
+.sale_tile {
+ height: 100%;
+ width: 250px;
+}
+
+.last {
+ width: 80%;
+ margin: 0 auto;
 }
 
 /* FOOTER STYLES */
