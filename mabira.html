@@ -12,6 +12,7 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
 </head>
 
 
@@ -52,26 +53,36 @@
       </div>
     </div>
     <div class="intro">
-      <div class="scrolling_wrapper">
-        <div class="card">
-          <img src="http://rawanis.com/wp-content/uploads/2014/01/Pic2.jpg" alt="">
-        </div>
-        <div class="card">
-          <img src="http://sitez.co/wp-content/uploads/2016/09/furniture-of-home-home-furniture-different-styles-of-home-furniture-kenfurniture.jpg"
-            alt="">
-        </div>
-        <div class="card">
-          <img src="https://3.imimg.com/data3/MY/UH/MY-13357616/home-furniture-500x500.jpg" alt="">
-        </div>
-        <div class="card">
-          <img src="http://oakfactorytn.com/wp-content/uploads/home-furniture.jpg" alt="">
-        </div>
-        <div class="card">
-          <img src="http://sitez.co/wp-content/uploads/2016/09/furniture-of-home-home-furniture-com-collection-home-furniture-pictures-pictures.jpg"
-            alt="">
-        </div>
+
+      <div class="card fade">
+        <img class="slide_img" src="assets/images/apartment-architecture-ceiling-271647.jpg" height="400px" alt="">
+      </div>
+      <div class="card fade">
+
+        <img class="slide_img" src="assets/images/apartment-bed-bedroom-439227.jpg" height="400px">
+      </div>
+      <div class="card fade">
+        <img class="slide_img" src="assets/images/cabinet-contemporary-counter-1080721.jpg" height="400px" alt="">
+      </div>
+      <div class="card fade">
+        <img class="slide_img" src="assets/images/apartment-architecture-carpet-584399.jpg" height="400px" alt="">
+      </div>
+      <div class="card fade">
+        <img class="slide_img" src="assets/images/apartment-architecture-carpet-276566.jpg" height="400px">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </div>
+
     <div class="content">
       <div class="inspirations">
         <div class="inspiration_tile living"></div>
@@ -153,6 +164,7 @@
     </div>
   </div>
 
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>
