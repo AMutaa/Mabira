@@ -347,6 +347,10 @@ h5 {
  margin: 25px 0;
 }
 
+.phone_sale {
+ display: none
+}
+
 .sale_tile {
  grid-template-columns: 1fr;
  grid-template-rows: 7fr 0.5fr 1.5fr;

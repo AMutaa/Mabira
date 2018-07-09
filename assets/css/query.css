@@ -54,9 +54,9 @@
  }
  .wrapper {
   padding: 0;
-  width: auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px auto;
+  max-width: 100vw;
  }
  /* HEADER STYLES */
  .header {
@@ -189,7 +189,7 @@
  .content {
   padding: 20px 5px;
   grid-template-columns: 1fr;
-  grid-template-rows: 320px 300px 3fr;
+  grid-template-rows: 320px auto 300px;
  }
  .categories {
   width: 100vw;
@@ -203,19 +203,22 @@
   font-size: 12px;
  }
  .today_sales {
-  width: 100vw;
-  margin: 0 auto;
-  overflow-x: hidden;
-  white-space: nowrap;
-  grid-template-rows: 50px 250px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+ }
+ .phone_sale {
+  display: block;
+  text-align: left;
  }
  .today_title {
-  margin: 0;
+  display: none;
  }
  .sale_tile {
-  display: grid;
-  display: inline-block;
-  width: 200px;
+  flex: 0 0 40%;
+  margin: 0 10px;
  }
  .sale_price,
  .sale_item {
