@@ -10,6 +10,7 @@ body {
  text-align: center;
  max-width: 100vw;
 
+
  overflow-x: hidden;
 }
 
@@ -357,12 +358,14 @@ h5 {
  grid-template-rows: 7fr 0.5fr 1.5fr;
  text-align: left;
  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, 0.281);
+ border-radius: 5px;
 }
 
 .sale_image {
  width: 100%;
  height: 100%;
  object-fit: cover;
+ border-radius: 5px;
 }
 
 .sale_price,
