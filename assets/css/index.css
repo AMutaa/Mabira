@@ -86,14 +86,15 @@ h5 {
    color:white;
  }
 #media_overlay {
- background-color: red;
+ background:rgba(0, 0, 0, 0.8);
  font-size: 1.3rem;
 
 }
 
 #nav {
  justify-content: space-between;
- margin: 0 150px;
+ padding: 0 150px;
+ background: #FFFFFF;
 }
 
 #logo {
@@ -153,7 +154,8 @@ h5 {
 
 .intro {
  margin: 0 auto;
- width: 90%;
+ width: 100%;
+ background: #3F2C30;
 }
 
 .slide_img {
@@ -267,8 +269,9 @@ h5 {
 .inspirations {
  grid-template-columns: 4fr 2fr;
  grid-template-rows: 100px 1fr 1fr 50px;
- margin: 0 auto;
- width: 80%;
+ padding: 0 300px;
+ width: 100%;
+ background: #623236;
 }
 
 .inspiration_main {
@@ -393,6 +396,7 @@ h5 {
  grid-template-rows: 0.7fr 1.5fr 0.5fr;
  grid-gap: 5px;
  border-top: 2px solid rgba(65, 39, 39, 0.685);
+ background: #331C20;
 }
 
 .email {
