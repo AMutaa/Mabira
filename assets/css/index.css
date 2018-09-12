@@ -18,6 +18,7 @@ a {
  text-decoration: none;
  margin: auto 0;
  color: purple;
+ color: #ffffff
 }
 
 li {
@@ -39,12 +40,14 @@ input {
 
 h4 {
  font-size: 18px;
+ color: #CAC4BE;
 }
 
 h1,
 h4,
 h5 {
  font-weight: normal;
+ color: #CAC4BE;
 }
 
 .sub,
@@ -73,7 +76,7 @@ h5 {
  min-height: 100vh;
  display: grid;
  grid-template-columns: 1fr;
- grid-template-rows: 100px 600px auto 200px;
+ grid-template-rows: 100px 600px auto auto;
 }
 
 /* HEADER STYLES */
@@ -261,7 +264,6 @@ h5 {
 }
 
 .content {
- padding: 20px 0;
  grid-template-columns: 1fr;
  grid-template-rows: 650px 650px 3fr;
 }
@@ -308,10 +310,11 @@ h5 {
 }
 
 .categories {
- width: 55%;
- margin: 0 auto;
+
+padding: 0 250px;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  grid-template-rows: 80px 1fr 1fr 50px;
+ background: white;
 }
 
 .category_main {
@@ -411,6 +414,7 @@ h5 {
 .footer_titles {
  font-size: 19px;
  margin: 10px auto;
+ color: #CAC4BE;
 }
 
 .footer_tiles {
@@ -419,7 +423,7 @@ h5 {
 
 .but {
  color: white;
- background: red;;
+ background: #633336;
  padding: 10px 10px;
  font-size: 17px;
  border: none;
@@ -437,7 +441,7 @@ h5 {
 #call {
  color: purple ;
  background: #ffffff;
- border: 2px solid red;
+
  font-size: 16px;
  margin-bottom: 5px;
 }
@@ -445,4 +449,5 @@ h5 {
 .time {
  margin: 5px 0;
  font-size: 15px;
+ color: white;
 }
