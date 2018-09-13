@@ -15,20 +15,11 @@
  .inspirations {
   display: none;
  }
- a {
-  margin: auto 0;
- }
- li {
-  margin: 10px auto;
-  font-size: 16px
- }
- button {
-  border-radius: 3px;
- }
+
+
  input {
-  border: 2px solid rgba(128, 128, 128, 0.26);
+  border: 1px solid rgba(128, 128, 128, 0.26);
   border-radius: 3px;
-  font-size: 17px;
  }
  h1 {
   font-size: 20px;
@@ -41,25 +32,8 @@
  h5 {
   margin: 0;
  }
- .sub,
- .user,
- .email,
- .footer_tiles,
- .buttons,
- .category_img,
- .category_main,
- .category_button,
- .today_title,
- .inspiration_main,
- .inspiration_button,
- .sub,
- #searchbox,
- #carti,
-  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
+
+
  .wrapper {
   padding: 0;
   grid-template-rows: auto auto auto 120px;
