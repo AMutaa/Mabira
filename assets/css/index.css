@@ -103,7 +103,9 @@ h5 {
 #logo {
  font-family: 'Tangerine', cursive;
  font-size: 50px;
- color: red;
+ font-weight: 500;
+ color:#331C20;
+
 
 }
 
@@ -121,24 +123,35 @@ h5 {
 
 #dep {
  font-size: 21px;
+ color:#331C20;
 }
 
 #sale {
  color: brown;
+ color:#331C20;
 }
+#room{
+ color:#331C20;
 
+}
 #cam {
  background: #ffffff;
  border: 2px solid rgba(128, 128, 128, 0.26);
  height: 40px;
  width: 45px;
  font-size: 27px;
+ color:#331C20;
+
 }
 
 #us {
  margin: 10px 10px;
-}
+ color:#331C20;
 
+}
+.they{
+  color:black;
+}
 .user {
  margin: auto 0;
  padding-left: 50px;
@@ -147,6 +160,8 @@ h5 {
 #cart {
  width: 30px;
  height: 30px;
+ color:#331C20;
+
 }
 
 #yet {
