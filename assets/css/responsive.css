@@ -304,14 +304,14 @@
    font-size: 1rem;
   }
   #nav {
-  padding: 0;
+  padding: 0 10px;
   width: 100vw;
   }
   #logo {
    font-size: 35px;
   }
   #searchbox {
-   flex: 0 0 70%;
+   flex: 0 0 90%;
    font-size: 15px;
   }
   #search {
@@ -319,27 +319,10 @@
    height: 40px;
    padding-left: 5px;
   }
-  #dep {
-   font-size: 15px;
+  #dep, #sale, #us, #room, #cart, .proj {
    display: none;
   }
-  #sale {
-   display: none;
-  }
-  #cam {
-   height: 40px;
-   width: 40px;
-   font-size: 20px;
-  }
-  .proj {
-   display: none;
-  }
-  #us {
-   display: none;
-  }
-  .user {
-   padding-left: 10px;
-  }
+
   #cart {
    width: 25px;
    height: 25px;
@@ -348,9 +331,7 @@
    margin: 5px 5px;
   }
 
-  #room {
-    display: none;
-  }
+
   /* INTRO STYLES */
   .intro {
    width: 100%;
