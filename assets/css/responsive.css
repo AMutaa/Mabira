@@ -10,6 +10,8 @@
  #room,
  #us,
  #yet,
+ #cart,
+ .today_sales,
  .inspirations {
   display: none;
  }
@@ -44,7 +46,6 @@
  .email,
  .footer_tiles,
  .buttons,
- .today_sale,
  .category_img,
  .category_main,
  .category_button,
@@ -73,19 +74,27 @@
   max-width: 100vw;
   margin: 0;
  }
- #searchbox {
-  flex: 0 0 100%;
-  order: 1;
-  margin: 0 0 10px 0;
-  padding: 0;
-  border-radius: 0;
-  height: 40px;
- }
+
  #nav {
+  padding: 0 ;
+  width: 100vw;
+  max-width: 100vw;
+  order:1;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0;
- }
+  justify-content: center;
+  }
+  #logo {
+   font-size: 35px;
+  }
+  #searchbox {
+   flex: 0 0 97%;
+   font-size: 15px;
+  }
+  #search {
+   margin-right: 0;
+   height: 40px;
+
+  }
  #logo {
   font-size: 30px;
  }
@@ -184,8 +193,6 @@
  /* INSPIRATION STYLES */
  /* CONTENT STYLES */
  .content,
- .today_sales,
- .sale_tile,
  .categories,
  .category {
   display: grid;
@@ -194,12 +201,12 @@
  .content {
   padding: 20px auto;
   grid-template-columns: 1fr;
-  grid-template-rows: 320px auto 300px;
+  grid-template-rows: auto
  }
  .categories {
-  grid-template-rows: 50px 93px 93px 40px;
-  width: 100vw;
-  padding: 0 5px;
+ max-width: 100vw;
+
+  padding: 10px 5px;
  }
  .category_image {
   width: 45px;
@@ -208,39 +215,7 @@
  .category_text {
   font-size: 12px;
  }
- .today_sales {
-  height: auto;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  width: 100vw;
-  padding: 0 10px;
- }
- .phone_sale {
-  display: block;
-  text-align: left;
-  padding-left: 5px;
- }
- .today_title {
-  display: none;
- }
- .sale_tile {
-  flex: 0 0 40%;
-  margin: 0 10px;
- }
- .sale_price,
- .sale_item {
-  padding-left: 10px
- }
- .pri {
-  margin: 0;
-  font-size: 20px;
- }
- .chan {
-  text-decoration: line-through;
 
-  font-size: 15px;
- }
  /* FOOTER STYLES */
  .footer {
   padding: 0;
