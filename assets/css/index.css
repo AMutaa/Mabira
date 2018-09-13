@@ -7,6 +7,7 @@
 body {
  text-align: center;
  font-family: 'Open Sans', sans-serif;
+ color: #3F2C30;
  text-align: center;
  max-width: 100vw;
 
@@ -18,7 +19,6 @@ a {
  text-decoration: none;
  margin: auto 0;
  color: purple;
- color: #ffffff
 }
 
 li {
@@ -434,6 +434,9 @@ padding: 0 250px;
 
 .footer_tiles {
  flex-direction: column;
+}
+.footer_tiles a{
+  color: #ffffff;
 }
 
 .but {
