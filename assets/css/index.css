@@ -44,10 +44,12 @@ h4 {
 }
 
 h1,
+h2,
 h4,
 h5 {
  font-weight: normal;
  color: #CAC4BE;
+ margin: 0;
 }
 
 .sub,
@@ -76,7 +78,7 @@ h5 {
  min-height: 100vh;
  display: grid;
  grid-template-columns: 1fr;
- grid-template-rows: 100px 600px auto auto;
+ grid-template-rows: auto auto auto auto;
 }
 
 /* HEADER STYLES */
@@ -325,9 +327,9 @@ h5 {
 }
 
 .categories {
-width: 60vw;
+ width: 60vw;
  grid-template-columns: 1fr;
- grid-template-rows: 80px auto 50px;
+ grid-template-rows: 50px auto auto;
  background: white;
  margin: auto auto;
  grid-gap: 0px;
@@ -340,6 +342,7 @@ width: 60vw;
 .category_button {
  grid-column: 1/-1;
  background: #F6F4EE;
+ padding: 20px 0;
 }
 
 .category {
@@ -375,7 +378,7 @@ width: 60vw;
 .today_sales {
  width: 60vw;;
  margin: 0 auto;
- padding: 50px 0;
+ padding-bottom: 50px;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  grid-template-rows:  1fr;
 }
