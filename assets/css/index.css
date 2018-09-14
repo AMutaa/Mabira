@@ -375,8 +375,9 @@ width: 60vw;
 .today_sales {
  width: 60vw;;
  margin: 0 auto;
+ padding: 50px 0;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- grid-template-rows: 100px 1fr;
+ grid-template-rows:  1fr;
 }
 
 .today_title,
@@ -384,12 +385,9 @@ width: 60vw;
 .inspiration_main {
  grid-column: 1/-1;
  justify-content: flex-start;
- margin: 25px 0;
+
 }
 
-.phone_sale {
- display: none
-}
 
 .sale_tile {
  grid-template-columns: 1fr;
@@ -398,10 +396,15 @@ width: 60vw;
  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, 0.281);
  border-radius: 5px;
 }
+.sale_img{
+  display: flex;
+  align-items: center;
+}
 
 .sale_image {
- width: 100%;
- height: 100%;
+ width: 80%;
+ height: 80%;
+ margin: 0 auto;
  object-fit: cover;
  border-radius: 5px;
 }
