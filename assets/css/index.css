@@ -433,7 +433,7 @@ padding: 0 380px;
 /* FOOTER STYLES */
 
 .footer {
- padding: 0 350px;
+ padding: 20px 350px;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 0.7fr 1.5fr 0.5fr;
@@ -488,7 +488,9 @@ padding: 0 380px;
  font-size: 16px;
  margin-bottom: 5px;
 }
-
+.sub{
+  margin-top:20px;
+}
 .time {
  margin: 5px 0;
  font-size: 15px;
