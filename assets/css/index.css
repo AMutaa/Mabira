@@ -330,6 +330,7 @@ width: 60vw;
  grid-template-rows: 80px auto 50px;
  background: white;
  margin: auto auto;
+ grid-gap: 0px;
 }
 
 .category_main {
@@ -338,6 +339,7 @@ width: 60vw;
 
 .category_button {
  grid-column: 1/-1;
+ background: #F6F4EE;
 }
 
 .category {
@@ -371,7 +373,7 @@ width: 60vw;
 }
 
 .today_sales {
- width: 55%;
+ width: 60vw;;
  margin: 0 auto;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  grid-template-rows: 100px 1fr;
