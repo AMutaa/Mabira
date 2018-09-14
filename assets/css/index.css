@@ -325,11 +325,11 @@ h5 {
 }
 
 .categories {
-
-padding: 0 250px;
- grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- grid-template-rows: 80px 1fr 1fr 50px;
+width: 60vw;
+ grid-template-columns: 1fr;
+ grid-template-rows: 80px auto 50px;
  background: white;
+ margin: auto auto;
 }
 
 .category_main {
@@ -341,18 +341,33 @@ padding: 0 250px;
 }
 
 .category {
- grid-template-rows: 5fr 1fr;
- grid-template-columns: 1fr
+ grid-template-rows: 80% 20%;
+ grid-template-columns: 1fr;
+ margin:0 20px;
+ height: 200px;
 }
 
 .category_img {
- border-radius: 5px;
- box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, 0.281);
+ border-radius: 100%;
+ /* box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, 0.281); */
+ width: 150px;
+ height: 150px;
+ background: #CAC4BE;
 }
-
+.category_img:hover{
+  background:#F6F4EE;
+  margin-bottom: 10px;
+}
+.categories_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #F6F4EE;
+  padding: 20px 0;
+}
 .category_image {
- width: 120px;
- height: 120px;
+  width: 70%;
+  height: 70%;
 }
 
 .today_sales {
