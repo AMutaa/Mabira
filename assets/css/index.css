@@ -312,6 +312,25 @@ h5 {
 .bedroom {
  grid-row: 2/4;
  background-image: url("https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+ justify-content: space-between;
+ width: 100%;
+}
+.bedroom_sale{
+  background: rgba(65, 39, 39, 0.3);
+  display: grid;
+  grid-auto-rows: 1fr 2fr 1fr;
+  align-items: center;
+  text-align: left;
+  height: 100%;
+  padding: 100px 100px
+}
+.bedroom_title{
+  color:white;
+}
+.bedroom_sale, h3{
+  font-size: 40px;
+  color:white;
 }
 
 .chair {
