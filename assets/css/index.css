@@ -180,7 +180,7 @@ h5 {
 .intro {
  margin: 0 auto;
  width: 100%;
- background: #3F2C30;
+ background: #331C20;
 }
 
 .slide_img {
@@ -288,16 +288,17 @@ h5 {
 .content {
   padding: 50px 0;
  grid-template-columns: 1fr;
- grid-template-rows: auto 700px 550px;
+ grid-template-rows: auto 800px 550px;
 }
 
 .inspirations {
  grid-template-columns: 3fr 1fr;
- grid-template-rows: auto 1fr 1fr 50px;
+ grid-template-rows: auto 1fr 1fr 70px;
  padding: 20px 100px;
  width: 100vw;
  margin: 0 auto;
- background: #623236;
+ /* background: #623236; */
+ background: #331C20
 }
 
 .inspiration_main {
