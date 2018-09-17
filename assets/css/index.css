@@ -288,7 +288,7 @@ h5 {
 .inspirations {
  grid-template-columns: 4fr 2fr;
  grid-template-rows: auto 1fr 1fr 50px;
-padding: 0 380px;
+padding: 0 150px;
  width:100%;
  margin: 0 auto;
  background: #623236;
@@ -329,7 +329,7 @@ padding: 0 380px;
 }
 
 .categories {
- width: 60vw;
+ width: 70vw;
  grid-template-columns: 1fr;
  grid-template-rows: 50px auto auto;
  background: white;
@@ -378,7 +378,7 @@ padding: 0 380px;
 }
 
 .today_sales {
- width: 60vw;;
+ width: 70vw;;
  margin: 0 auto;
  padding-bottom: 50px;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -468,7 +468,7 @@ padding: 0 380px;
  color: white;
  background: #633336;
  padding: 10px 10px;
- font-size: 17px;
+ font-size: 15px;
  border: none;
 }
 
