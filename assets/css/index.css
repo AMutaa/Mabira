@@ -18,7 +18,8 @@ body {
 a {
  text-decoration: none;
  margin: auto 0;
- color: purple;
+ color: #623236;
+ font-size: 1.1rem;
 }
 
 li {
@@ -282,7 +283,7 @@ h5 {
 
 .content {
  grid-template-columns: 1fr;
- grid-template-rows: 650px 700px 400px;
+ grid-template-rows: 650px 700px 500px;
 }
 
 .inspirations {
@@ -382,7 +383,7 @@ padding: 0 150px;
  margin: 0 auto;
  padding-bottom: 50px;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- grid-template-rows:  1fr;
+ grid-template-rows:0.1fr 1fr;
 }
 
 .today_title,
