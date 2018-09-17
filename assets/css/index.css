@@ -286,16 +286,16 @@ h5 {
 }
 
 .content {
+  padding: 50px 0;
  grid-template-columns: 1fr;
- grid-template-rows: 650px 700px 600px;
+ grid-template-rows: auto 700px 550px;
 }
 
 .inspirations {
- grid-template-columns: 4fr 2fr;
+ grid-template-columns: 3fr 1fr;
  grid-template-rows: auto 1fr 1fr 50px;
-padding: 20px 150px;
-
- width:100%;
+ padding: 20px 100px;
+ width: 100vw;
  margin: 0 auto;
  background: #623236;
 }
@@ -311,25 +311,27 @@ padding: 20px 150px;
 
 .bedroom {
  grid-row: 2/4;
- background-image: url(https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+ background-image: url("https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 .chair {
- background-image: url(https://images.pexels.com/photos/159839/office-home-house-desk-159839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+ background-image: url("https://images.pexels.com/photos/159839/office-home-house-desk-159839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
 }
 
 .office {
- background-image: url(https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+ background-image: url("https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 .ut {
  background-size: cover;
  background-repeat: no-repeat;
+ background-position-x: 50%;
+ background-position-y: 60%;
 }
 
 
 .categories {
- width: 70vw;
+ width: 80vw;
  grid-template-columns: 1fr;
  grid-template-rows: 50px auto auto;
  background: white;
@@ -350,15 +352,15 @@ padding: 20px 150px;
 .category {
  grid-template-rows: 80% 20%;
  grid-template-columns: 1fr;
- margin:0 20px;
- height: 200px;
+ margin:0 auto;
+ height: 250px;
+
 }
 
 .category_img {
  border-radius: 100%;
-
- width: 150px;
- height: 150px;
+ width: 200px;
+ height: 200px;
  background: #CAC4BE;
 }
 .category_img:hover{
@@ -366,9 +368,9 @@ padding: 20px 150px;
   margin-bottom: 10px;
 }
 .categories_div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   background: #F6F4EE;
   padding: 20px 0;
 }
@@ -378,9 +380,8 @@ padding: 20px 150px;
 }
 
 .today_sales {
- width: 70vw;;
+ width: 90vw;;
  margin: 0 auto;
- padding: 50px 0;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  grid-template-rows:0.1fr 1fr;
 }
@@ -494,7 +495,7 @@ padding: 20px 150px;
 }
 
 #sign {
- width: 40%;
+ width: 55%;
  height: 50px;
 }
 
