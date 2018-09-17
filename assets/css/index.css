@@ -35,6 +35,8 @@ button {
 
 input {
  font-size: 17px;
+ border:none;
+ padding-left: 10px;
 }
 
 h4 {
@@ -98,7 +100,7 @@ h5 {
 
 #nav {
  justify-content: space-between;
- padding: 0 150px;
+ padding: 10px 100px;
  background: #FFFFFF;
 }
 
@@ -119,8 +121,10 @@ h5 {
 #search {
  width: 90%;
  margin-right: 10px;
- height: 40px;
- padding-left: 5px;
+ height: 50px;
+ padding-left: 10px;
+ border: 2px solid rgba(128, 128, 128, 0.26);
+ border-radius: 3px;
 }
 
 #dep {
@@ -140,8 +144,8 @@ h5 {
 #cam {
  background: #ffffff;
  border: 2px solid rgba(128, 128, 128, 0.26);
- height: 40px;
- width: 45px;
+ height: 50px;
+ width: 50px;
  font-size: 27px;
  color:#331C20;
 
@@ -283,7 +287,7 @@ h5 {
 
 .content {
  grid-template-columns: 1fr;
- grid-template-rows: 650px 700px 500px;
+ grid-template-rows: 650px 700px 600px;
 }
 
 .inspirations {
@@ -352,7 +356,7 @@ padding: 20px 150px;
 
 .category_img {
  border-radius: 100%;
- /* box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, 0.281); */
+
  width: 150px;
  height: 150px;
  background: #CAC4BE;
@@ -472,7 +476,7 @@ padding: 20px 150px;
  color: white;
  background: #633336;
  padding: 10px 10px;
- font-size: 15px;
+ font-size: 17px;
  border: none;
  width: 200px;
  height: 50px;
@@ -496,7 +500,7 @@ padding: 20px 150px;
 
 
 #call {
- color: purple ;
+ color: #331C20;
  background: #ffffff;
 
  font-size: 16px;
