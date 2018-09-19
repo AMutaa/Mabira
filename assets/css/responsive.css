@@ -311,13 +311,14 @@ margin:0 0;
    width: 100vw;
   }
 .category_img{
-  width:150px;
+  width:100px;
+  height:100px;
 }
   .categories_div{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-
-  width: 100vw;
+  margin: 0 auto;
+  width: 90vw;
   }
   .category_button, .inspirations{
     display: none;
