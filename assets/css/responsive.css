@@ -319,7 +319,7 @@ margin:0 0;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin: 0 auto;
-  width: 90vw;
+  width: 100vw;
   }
   .category_button, .inspirations{
     display: none;
