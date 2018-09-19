@@ -310,7 +310,9 @@ margin:0 0;
    grid-template-rows: 50px 1fr 1fr 100px;
    width: 100vw;
   }
-
+.category_img{
+  width:150px;
+}
   .categories_div{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
