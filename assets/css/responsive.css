@@ -311,8 +311,8 @@ margin:0 0;
    width: 100vw;
   }
 .category_img{
-  width:100px;
-  height:100px;
+  width:150px;
+  height:150px;
 }
   .categories_div{
   grid-template-columns: 1fr 1fr 1fr 1fr;
