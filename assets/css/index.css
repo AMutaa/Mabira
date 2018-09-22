@@ -37,9 +37,10 @@ button {
 }
 
 input {
- font-size: 17px;
+ font-size: 18px;
  border:none;
  padding-left: 10px;
+ letter-spacing: 1px;
 }
 
 h4 {
