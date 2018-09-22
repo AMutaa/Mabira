@@ -138,8 +138,8 @@ h5 {
 }
 
 #sale {
- color: brown;
- color:#331C20;
+
+ color:red;
 }
 
 #room{
@@ -151,7 +151,7 @@ h5 {
  border: 2px solid #623236;
  height: 48px;
  width: 50px;
- font-size: 27px;
+ font-size: 30px;
  color:#623236;
 
 }
