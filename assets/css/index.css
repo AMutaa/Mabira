@@ -38,9 +38,10 @@ button {
 
 input {
  font-size: 18px;
- border:none;
+ border: 1px solid #623236 ;
  padding-left: 10px;
  letter-spacing: 1px;
+ font-weight: 600px;
 }
 
 h4 {
@@ -125,9 +126,9 @@ h5 {
 #search {
  width: 90%;
  margin-right: 10px;
- height: 50px;
+ height: 48px;
  padding-left: 10px;
- border: 2px solid rgba(128, 128, 128, 0.26);
+ border: 2px solid #623236;
  border-radius: 3px;
 }
 
@@ -147,11 +148,11 @@ h5 {
 }
 #cam {
  background: #ffffff;
- border: 2px solid rgba(128, 128, 128, 0.26);
- height: 50px;
+ border: 2px solid #623236;
+ height: 48px;
  width: 50px;
  font-size: 27px;
- color:#331C20;
+ color:#623236;
 
 }
 
@@ -171,7 +172,7 @@ h5 {
 #cart {
  width: 30px;
  height: 30px;
- color:#331C20;
+ color:#623236;
 
 }
 
