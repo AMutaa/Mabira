@@ -317,12 +317,15 @@ height: 160px;
    margin:0;
   }
   .categories {
-   grid-template-rows: 50px 1fr 1fr 100px;
+   grid-template-rows: 50px auto ;
    width: 100vw;
   }
 .category_img{
   width:150px;
   height:150px;
+}
+.category{
+  height:25s0px;
 }
   .categories_div{
   grid-template-columns: 1fr 1fr 1fr 1fr;
